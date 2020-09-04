@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body{
+    background: url(../images/background.svg);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align:center;
+    font-size: 25px;
+    padding-top:30px;
+}
+#calArea{
+    text-align: center;
+    margin: 0 auto;
+}
+#calculator{
+    width: 400px;
+    height: 450px;
+    background-color: #FFF;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background: hsla(0,0%,100%,.3);
+    border-radius:20px ;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+        z-index: 100;
+        overflow: hidden;
+        box-sizing: border-box;
+}
+#display{
+    width: 400px;
+    height: 100px;
+    background-color: #CCC;
+    margin-bottom: 20px;
+}
+.inputNum,.operator{
+    width: 100px;
+    height: 120px;
+    font-size: 60px;
+    margin: 10px;
+    border: 1px solid transparent;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background: #00BFFF;
+    border: 1px solid transparent;
+    margin: 10px 20px;
+}
